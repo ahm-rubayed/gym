@@ -1,5 +1,8 @@
 import React from 'react';
-import "./Exercise.css"
+import "./Exercise.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const Exercise = (props) => { 
 
@@ -9,6 +12,9 @@ const Exercise = (props) => {
         total = total + tim.time;
     }
 
+    const toastify = () => {
+       toast("Wow you done the workout!") 
+    }
     return (
         <div className='mt-5'>
             <h5 className='text-capitalize fw-bold'>Exercise Details</h5>
@@ -21,7 +27,8 @@ const Exercise = (props) => {
                 <h6 className='fw-bold'>Exercise Time</h6>
                 <p>200seconds</p>
             </div>
-            <button className='w-100 mt-5 border-0 text-white rounded py-3 exercise-btn'>Activity completed</button>
+            <button onClick={toastify} className='w-100 mt-5 border-0 text-white rounded py-3 exercise-btn'>Activity completed</button>
+            <ToastContainer />
         </div>
     );
 };
