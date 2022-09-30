@@ -1,44 +1,50 @@
 [
-    {
-      "id": "6335ada91f3980be62be442c",
-      "picture": "http://placehold.it/32x32",
-      "age": 20,
-      "name": "Burgess Deleon",
-      "time": 34
-    },
-    {
-      "id": "6335ada95166f7eb8da92873",
-      "picture": "http://placehold.it/32x32",
-      "age": 33,
-      "name": "Raymond Murray",
-      "time": 34
-    },
-    {
-      "id": "6335ada954acbb83923e89a9",
-      "picture": "http://placehold.it/32x32",
-      "age": 28,
-      "name": "Kirk Floyd",
-      "time": 20
-    },
-    {
-      "id": "6335ada93d5f75450d1d4ce1",
-      "picture": "http://placehold.it/32x32",
-      "age": 28,
-      "name": "Robbie Mcclain",
-      "time": 18
-    },
-    {
-      "id": "6335ada94e6f55a84b5ef343",
-      "picture": "http://placehold.it/32x32",
-      "age": 37,
-      "name": "Riddle Pugh",
-      "time": 16
-    },
-    {
-      "id": "6335ada9ed6dd0146c8960dd",
-      "picture": "http://placehold.it/32x32",
-      "age": 33,
-      "name": "Holt Wilson",
-      "time": 28
-    }
-  ]
+  {
+    "id": "6335ada91f3980be62be442c",
+    "picture": "./assets/img1.jpg",
+    "age": 20,
+    "name": "Burgess Deleon",
+    "time": 34,
+    "about": "Ad eiusmod qui dolore ullamco dolor non fugiat quis eu Lorem eu do Lorem. Tempor culpa ut excepteur ad exercitation elit sint."
+  },
+  {
+    "id": "6335ada95166f7eb8da92873",
+    "picture": "./assets/img2.jpg",
+    "age": 33,
+    "name": "Raymond Murray",
+    "time": 34,
+    "about": "Quis occaecat occaecat ea consectetur. Esse fugiat consectetur eu irure qui."
+  },
+  {
+    "id": "6335ada954acbb83923e89a9",
+    "picture": "./assets/img3.jpg",
+    "age": 28,
+    "name": "Kirk Floyd",
+    "time": 20,
+    "about": "Consectetur aute amet ex culpa. Sit sit Lorem duis voluptate pariatur quis anim mollit velit aliquip culpa."
+  },
+  {
+    "id": "6335ada93d5f75450d1d4ce1",
+    "picture": "./assets/img4.jpg",
+    "age": 28,
+    "name": "Robbie Mcclain",
+    "time": 18,
+    "about": "Est dolor eu nulla do minim et officia eu in officia aliqua occaecat cupidatat. Labore esse voluptate sunt ullamco eiusmod enim quis aliqua minim culpa voluptate."
+  },
+  {
+    "id": "6335ada94e6f55a84b5ef343",
+    "picture": "./assets/img5.jpg",
+    "age": 37,
+    "name": "Riddle Pugh",
+    "time": 16,
+    "about": "Ad proident labore officia deserunt do dolor nisi. Deserunt aliquip exercitation deserunt voluptate Lorem culpa minim amet ut nulla veniam esse."
+  },
+  {
+    "id": "6335ada9ed6dd0146c8960dd",
+    "picture": "./assets/img6.jpg",
+    "age": 33,
+    "name": "Holt Wilson",
+    "time": 28,
+    "about": "Adipisicing do enim nostrud deserunt aliquip. Anim minim do nostrud magna. Consequat irure est nostrud commodo qui proident amet quis elit enim ut ipsum."
+  }
+]

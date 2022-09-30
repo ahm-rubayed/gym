@@ -2,15 +2,18 @@ import React from 'react';
 import './Card.css'
 
 const GymItem = (props) => {
-  const {name} = props.itemss;
-    console.log(props.itemss.name)
+  const {picture, name, about, age, time} = props.item;
+    console.log(props)
     return (
-  <div classNameName="col">
-    <div className="card">
-      {/* <img src="..." className="card-img-top" alt="..."> */}
-      <div className="card-body">
-        <h5 className="card-title text-warning">{name}</h5>
-        <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+  <div classNameName="col position-relative">
+    <div className="card h-100">
+      <img src={picture} className="card-img-top" alt="..."/>
+      <div className="card-body py-5">
+        <h5 className="card-title">{name}</h5>
+        <p className="card-text text-secondary">{about}</p>
+        <p className="card-text">For age: {age}</p>
+        <p className="card-text ">Time required: {time}s</p>
+        <button className='position-absolute fixed-bottom border-0 py-2 mt-2 card-btn text-white'>Add to list</button>
       </div>
     </div>
   </div>
