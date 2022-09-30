@@ -3,7 +3,6 @@ import './Card.css'
 
 const GymItem = (props) => {
   const {picture, name, about, age, time} = props.item;
-    console.log(props)
     return (
   <div classNameName="col position-relative">
     <div className="card h-100">
