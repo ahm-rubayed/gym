@@ -1,0 +1,12 @@
+.navbar {
+    display: flex;
+    gap: 1rem;
+}
+
+.navbar img {
+    width: 8%;
+}
+
+.nav-title {
+    color: #1abc9c;
+}
