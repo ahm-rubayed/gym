@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/Home';
 import Blog from './components/Blog/Blog';
+import Toastify from './components/Toastify/Toastify';
 
 function App() {
   return (

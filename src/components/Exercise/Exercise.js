@@ -2,7 +2,6 @@ import React from 'react';
 import "./Exercise.css"
 
 const Exercise = (props) => { 
-    // const {mytimes} = props;
 
     let total = 0;
 
