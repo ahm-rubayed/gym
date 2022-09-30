@@ -3,6 +3,7 @@ import './GymItem.css'
 
 const GymItem = (props) => {
   const {picture, name, about, age, time} = props.item;
+
     return (
   <div classNameName="col position-relative">
     <div className="card h-100">
@@ -12,7 +13,7 @@ const GymItem = (props) => {
         <p className="card-text text-secondary">{about}</p>
         <p className="card-text">For age: {age}</p>
         <p className="card-text ">Time required: {time}s</p>
-        <button className='position-absolute fixed-bottom border-0 py-2 mt-2 card-btn text-white'>Add to list</button>
+        <button onClick={() => props.getTime(props.item.time)} className='position-absolute fixed-bottom border-0 py-2 mt-2 card-btn text-white'>Add to list</button>
       </div>
     </div>
   </div>
