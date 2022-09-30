@@ -5,7 +5,7 @@ import profile from "./profile.jpg";
 const Sidebar = () => {
   return (
     <div>
-      <div className="d-flex align-items-center py-4">
+      <div className="d-flex align-items-center py-4 justify-content-center ">
         <img src={profile} className="w-25 h-25 rounded-circle" alt="" />
         <div className="personal-address ms-3 ">
           <h5>Rubayed Ahmed</h5>
