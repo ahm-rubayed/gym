@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
+import Break from "../Break/Break";
 import GymItem from "../Card/GymItem";
-import man from "./man.jpg"
+import Exercise from "../Exercise/Exercise";
+import Sidebar from "../Sidebar/Sidebar";
 import './Home.css'
 
 const Home = () => {
@@ -20,31 +22,11 @@ const Home = () => {
                  items.map(item => <GymItem item ={item}></GymItem>)
             }
         </div>
-
+        
         <div className="col-3 home-sidebar vh-auto rounded px-5">
-            <div className="personal-info d-flex align-items-center py-4">
-                    <img src={man} className='w-25 h-25 rounded-circle' alt=''/>
-                <div className="personal-address ms-3 ">
-                    <h5>Rubayed Ahmed</h5>
-                    <p>Sylhet, Bangladesh</p>
-                </div>
-            </div>
-
-            <ul className="d-flex gap-5 bg-white p-2 rounded text-center justify-content-center"> 
-                <li>
-                    <p>75KG </p>
-                    <small>Weight</small>
-                </li>
-                <li>
-                    <p>5.1 </p>
-                    <small>Height</small>
-                </li>
-                <li>
-                    <p>18yrs </p>
-                    <small>Age</small>
-                </li>
-            </ul>
-            
+            <Sidebar></Sidebar>
+            <Break></Break>
+            <Exercise></Exercise>
         </div>
     </div>
   );
