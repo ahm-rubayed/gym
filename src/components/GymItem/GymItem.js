@@ -1,5 +1,5 @@
 import React from 'react';
-import './Card.css'
+import './GymItem.css'
 
 const GymItem = (props) => {
   const {picture, name, about, age, time} = props.item;

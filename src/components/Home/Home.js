@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Break from "../Break/Break";
-import GymItem from "../Card/GymItem";
+import GymItem from "../GymItem/GymItem";
 import Exercise from "../Exercise/Exercise";
 import Sidebar from "../Sidebar/Sidebar";
 import './Home.css'
