@@ -8,7 +8,6 @@ import './Home.css'
 const Home = () => {
     const [items, setItems] = useState([]);
     const [time, setTime] = useState([])
-    // console.log(time)
 
     useEffect(() => {
         fetch('data.json')
@@ -17,7 +16,7 @@ const Home = () => {
     }, [])
 
     const getTime = (item) => {
-        const newTime = [item];
+        const newTime = [...time, item];
         setTime(newTime)
       }
 

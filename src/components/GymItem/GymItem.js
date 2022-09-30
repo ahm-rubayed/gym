@@ -13,7 +13,7 @@ const GymItem = (props) => {
         <p className="card-text text-secondary">{about}</p>
         <p className="card-text">For age: {age}</p>
         <p className="card-text ">Time required: {time}s</p>
-        <button onClick={() => props.getTime(props.item.time)} className='position-absolute fixed-bottom border-0 py-2 mt-2 card-btn text-white'>Add to list</button>
+        <button onClick={() => props.getTime(props.item)} className='position-absolute fixed-bottom border-0 py-2 mt-2 card-btn text-white'>Time needed</button>
       </div>
     </div>
   </div>

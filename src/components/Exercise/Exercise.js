@@ -1,13 +1,21 @@
 import React from 'react';
 import "./Exercise.css"
 
-const Exercise = (time) => {
+const Exercise = (props) => { 
+    // const {mytimes} = props;
+
+    let total = 0;
+
+    for(const tim of props.time){
+        total = total + tim.time;
+    }
+
     return (
         <div className='mt-5'>
             <h5 className='text-capitalize fw-bold'>Exercise Details</h5>
             <div className='d-flex bg-white justify-content-between align-items-center my-4 rounded py-2 px-4'>
                 <h6 className='fw-bold'>Exercise Time</h6>
-                <p className='ms-4'>{time.time}s</p>
+                <p className='ms-4'>{total}s</p>
             </div>
 
             <div className='d-flex bg-white justify-content-between align-items-center rounded py-2 px-4'>
